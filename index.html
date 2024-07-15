@@ -430,17 +430,43 @@
         </div>
         <div class="subscribe">
           <p class="footer-subscr">Subscribe</p>
-          <form class="footer-form" name="feedback" autocomplete="off">
+          <form class="footer-form" name="email-form" autocomplete="off">
             <input
               class="email-style"
               type="email"
               name="email"
               placeholder="E-mail"
             />
-            <button class="subscribe-btn" type="submit">Subscribe</button>
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="modal-btn" type="button">
+          <svg class="modal-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        /* -------
+        <form class="modal-form" name="feedback">
+          <label
+            >Name <input class="modal-style" type="text" name="person" />
+            <svg class="modal-person" width="18" height="18">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </label>
+        </form>
+        */ --------
+      </div>
+    </div>
   </body>
 </html>
