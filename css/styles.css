@@ -734,7 +734,6 @@ margin-bottom: 8px;
 }
 
 .checked-input {
-    /*margin-top: 16px;*/
     margin-bottom: 24px;
 }
 
@@ -752,7 +751,7 @@ margin-bottom: 8px;
     color: #4d5ae5;
 }
 
-span {
+.check {
     display: inline-flex;
     align-items: center;
     justify-content: center;
