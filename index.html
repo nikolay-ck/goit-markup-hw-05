@@ -448,7 +448,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="modal-btn" type="button">
           <svg class="modal-close" width="8" height="8">
@@ -520,14 +520,16 @@
 
           <div class="checked-input">
             <input
-              class="checkbox-style"
+              class="checkbox-style visually-hidden"
               type="checkbox"
               name="accept"
               value="accept-privacy-polisy"
               id="checkbox"
-              checked
             />
             <label class="checkbox-name" for="checkbox"
+              ><span class="check"
+                ><svg class="check-ticket" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use></svg></span
               >I accept the terms and conditions of the
               <a class="checkbox-link" href="">Privacy Policy</a></label
             >
