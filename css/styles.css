@@ -738,7 +738,7 @@ margin-bottom: 8px;
     margin-bottom: 24px;
 }
 
-.checkbox-style:checked + .checkbox-name .check {
+.checkbox-style:checked + .checkbox-name .check-span {
     border-radius: 2px;
     border: none;
     background-color: #404bbf;
@@ -752,7 +752,7 @@ margin-bottom: 8px;
     color: #4d5ae5;
 }
 
-.check {
+.check-span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
